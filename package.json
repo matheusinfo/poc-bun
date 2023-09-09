@@ -1,0 +1,17 @@
+{
+  "name": "poc-bun",
+  "module": "src/main/server.ts",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/main/server.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
