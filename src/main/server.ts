@@ -10,6 +10,6 @@ bun.serve({
   },
 });
 
-console.log(`Server running at http://localhost:${env.PORT}/api`)
+console.log(`Server running at http://localhost:${env.PORT}`)
 
 
